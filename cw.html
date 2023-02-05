@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Formularz</title>
+   </head>
+   <body>
+      <form>
+         <input type="text" id="nm" value="">
+         <label for="nm">Imię</label><br><br>
+         <input type="text" id="lm" value="">
+         <label for="lm">Nazwisko</label><br><br>
+         <input type="text" id="ph" value="">
+         <label for="ph">Nr telefonu</label><br><br>
+         <label for="ms">Wiadomość:</label><br>
+         <input type="textarea" id="ms" value="" style="width:200px; height:300px;"><br><br>
+         <input type="checkbox" id="cg" value="agree">
+         <label for="nm">Wyrażam zgodę na przetwarzanie danych w celach marketingowych</label><br><br>
+         <button type="reset">zresetuj</button>
+         <button type="reset" onclick="wyswietlAlert()">Wyślij</button>
+      </form>
+      <script>
+         function wyswietlAlert() {
+            alert("Wysłano!")
+         }
+      </script>
+   </body>
+</html>
